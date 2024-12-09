@@ -1,13 +1,16 @@
-import React from 'react';
+import React from 'react'
 
+function login() {
+  return (
+    <div>
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Navbar from 'react-bootstrap/Navbar'; // Import Navbar here
 import { Link } from 'react-router-dom';
-
-function Header(home) {
+npm
+function Header() {
   return (
     <div>
       <Navbar expand="lg" className="bg-body-tertiary">
@@ -33,3 +36,8 @@ function Header(home) {
     </div>
   );
 }
+
+    </div>
+  )
+}
+export default login
